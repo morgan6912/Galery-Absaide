@@ -28,26 +28,65 @@ import com.absaide.gallery.presentation.user.UserGalleryScreen
 import com.absaide.gallery.presentation.user.UserSearchScreen
 import com.absaide.gallery.presentation.user.UserFavoritesScreen
 import com.absaide.gallery.presentation.user.UserProfileScreen
+import com.absaide.gallery.presentation.user.ArtworkDetailScreen
+import com.absaide.gallery.presentation.user.AccessibilityScreen
+import com.absaide.gallery.presentation.user.UserMessagesScreen
+import com.absaide.gallery.presentation.artist.ArtistMessagesScreen
+import com.absaide.gallery.presentation.user.UserArtistsScreen
 
 @Composable
 fun AppNavHost() {
     val navController = rememberNavController()
 
-    val remote      = remember { RemoteDataSource(HttpClientFactory.create()) }
-    val authRepo    = remember { AuthRepositoryImpl(remote) }
-    val artworkRepo = remember { ArtworkRepositoryImpl(remote) }
-    val userRepo    = remember { UserRepositoryImpl(remote) }
-    val favRepo     = remember { FavoriteRepositoryImpl(remote) }
+    val remote       = remember { RemoteDataSource(HttpClientFactory.create()) }
+    val authRepo     = remember { AuthRepositoryImpl(remote) }
+    val artworkRepo  = remember { ArtworkRepositoryImpl(remote) }
+    val userRepo     = remember { UserRepositoryImpl(remote) }
+    val favRepo      = remember { FavoriteRepositoryImpl(remote) }
+    val interestRepo = remember { InterestRepositoryImpl(remote) }
+    val messageRepo  = remember { MessageRepositoryImpl(remote) }
 
     val loginVM    = remember { LoginViewModel(LoginUseCase(authRepo)) }
     val registerVM = remember { RegisterViewModel(RegisterUseCase(authRepo)) }
-    val adminVM    = remember { AdminViewModel(GetUsersUseCase(userRepo), DeleteUserUseCase(userRepo), GetArtworksUseCase(artworkRepo), DeleteArtworkUseCase(artworkRepo)) }
-    val artistVM   = remember { ArtistViewModel(GetArtworksUseCase(artworkRepo), CreateArtworkUseCase(artworkRepo), DeleteArtworkUseCase(artworkRepo)) }
-    val userVM     = remember { UserViewModel(GetArtworksUseCase(artworkRepo), GetFavoritesUseCase(favRepo), AddFavoriteUseCase(favRepo), RemoveFavoriteUseCase(favRepo)) }
+
+    val adminVM = remember {
+        AdminViewModel(
+            getUsersUseCase      = GetUsersUseCase(userRepo),
+            deleteUserUseCase    = DeleteUserUseCase(userRepo),
+            getArtworksUseCase   = GetArtworksUseCase(artworkRepo),
+            deleteArtworkUseCase = DeleteArtworkUseCase(artworkRepo),
+            updateRoleUseCase    = UpdateRoleUseCase(userRepo)
+        )
+    }
+
+    val artistVM = remember {
+        ArtistViewModel(
+            GetArtworksUseCase(artworkRepo),
+            CreateArtworkUseCase(artworkRepo),
+            DeleteArtworkUseCase(artworkRepo),
+            remote
+        )
+    }
+
+    val userVM = remember {
+        UserViewModel(
+            GetArtworksUseCase(artworkRepo),
+            GetFavoritesUseCase(favRepo),
+            AddFavoriteUseCase(favRepo),
+            RemoveFavoriteUseCase(favRepo),
+            AddInterestUseCase(interestRepo),
+            RemoveInterestUseCase(interestRepo),
+            GetMyInterestsUseCase(interestRepo),
+            SendMessageUseCase(messageRepo),
+            GetReceivedMessagesUseCase(messageRepo),
+            remote
+        )
+    }
 
     val logout = { navController.navigate(Screen.Login.route) { popUpTo(0) } }
 
     NavHost(navController, startDestination = Screen.Login.route) {
+
         composable(Screen.Login.route) {
             LoginScreen(loginVM,
                 onLoginSuccess = { role ->
@@ -60,6 +99,7 @@ fun AppNavHost() {
                 onNavigateToRegister = { navController.navigate(Screen.Register.route) }
             )
         }
+
         composable(Screen.Register.route) {
             RegisterScreen(registerVM,
                 onRegisterSuccess = { role ->
@@ -72,17 +112,83 @@ fun AppNavHost() {
                 onNavigateToLogin = { navController.popBackStack() }
             )
         }
-        composable(Screen.AdminDashboard.route) { AdminDashboardScreen(adminVM, navController, logout) }
-        composable(Screen.AdminUsers.route)     { AdminUsersScreen(adminVM, navController, logout) }
-        composable(Screen.AdminArtworks.route)  { AdminArtworksScreen(adminVM, navController, logout) }
-        composable(Screen.AdminReports.route)   { AdminReportsScreen(adminVM, logout) }
-        composable(Screen.ArtistProfile.route)  { ArtistProfileScreen(artistVM, navController, logout) }
-        composable(Screen.ArtistUpload.route)   { ArtistUploadScreen(artistVM, navController) }
-        composable(Screen.ArtistMyWorks.route)  { ArtistMyWorksScreen(artistVM, navController, logout) }
-        composable(Screen.ArtistStats.route)    { ArtistStatsScreen(artistVM, navController, logout) }
-        composable(Screen.UserGallery.route)    { UserGalleryScreen(userVM, navController, logout) }
-        composable(Screen.UserSearch.route)     { UserSearchScreen(userVM, navController, logout) }
-        composable(Screen.UserFavorites.route)  { UserFavoritesScreen(userVM, navController, logout) }
-        composable(Screen.UserProfile.route)    { UserProfileScreen(userVM, navController, logout) }
+
+        // ── Admin ──────────────────────────────────────────────────────────
+        composable(Screen.AdminDashboard.route) {
+            AdminDashboardScreen(adminVM, navController, logout)
+        }
+        composable(Screen.AdminUsers.route) {
+            AdminUsersScreen(adminVM, navController, logout)
+        }
+        composable(Screen.AdminArtworks.route) {
+            AdminArtworksScreen(adminVM, navController, logout)
+        }
+        composable(Screen.AdminReports.route) {
+            AdminReportsScreen(adminVM, logout)
+        }
+        composable(Screen.AdminGallery.route) {
+            UserGalleryScreen(userVM, navController, logout)
+        }
+
+        // ── Artist ─────────────────────────────────────────────────────────
+        composable(Screen.ArtistProfile.route) {
+            ArtistProfileScreen(artistVM, navController, logout)
+        }
+        composable(Screen.ArtistUpload.route) {
+            ArtistUploadScreen(artistVM, navController)
+        }
+        composable(Screen.ArtistMyWorks.route) {
+            ArtistMyWorksScreen(artistVM, navController, logout)
+        }
+        composable(Screen.ArtistStats.route) {
+            ArtistStatsScreen(artistVM, navController, logout)
+        }
+        composable(Screen.ArtistGallery.route) {
+            UserGalleryScreen(userVM, navController, logout)
+        }
+        composable(Screen.ArtistMessages.route) {
+            ArtistMessagesScreen(artistVM, navController, logout)
+        }
+
+        // ── User ───────────────────────────────────────────────────────────
+        composable(Screen.UserGallery.route) {
+            UserGalleryScreen(userVM, navController, logout)
+        }
+        composable(Screen.UserSearch.route) {
+            UserSearchScreen(userVM, navController, logout)
+        }
+        composable(Screen.UserFavorites.route) {
+            UserFavoritesScreen(userVM, navController, logout)
+        }
+        composable(Screen.UserProfile.route) {
+            UserProfileScreen(userVM, navController, logout)
+        }
+        composable(Screen.Accessibility.route) {
+            AccessibilityScreen(navController)
+        }
+        composable(Screen.UserMessages.route) {
+            UserMessagesScreen(userVM, navController, logout)
+        }
+        composable(Screen.UserArtists.route) {
+            UserArtistsScreen(userVM, navController, logout)
+        }
+
+        // ── Detalle de obra ────────────────────────────────────────────────
+        composable(Screen.ArtworkDetail.route) { backStack ->
+            val artworkId = backStack.arguments?.getString("artworkId")?.toIntOrNull()
+            val artwork   = userVM.artworks.find { it.id == artworkId }
+            artwork?.let {
+                ArtworkDetailScreen(
+                    artwork         = it,
+                    isFavorite      = it.id in userVM.favoriteIds,
+                    isInterested    = it.id in userVM.interestIds,
+                    onFavoriteClick = { userVM.toggleFavorite(it.id) },
+                    onInterestClick = { userVM.toggleInterest(it.id) },
+                    onSendMessage   = { msg -> userVM.sendMessage(it.artistId, it.id, msg) },
+                    onBack          = { navController.popBackStack() },
+                    viewModel       = userVM
+                )
+            }
+        }
     }
 }

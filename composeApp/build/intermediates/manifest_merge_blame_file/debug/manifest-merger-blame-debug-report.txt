@@ -11,135 +11,209 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:4:5-67
 11-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:4:22-64
-12
-13    <permission
-13-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
-14        android:name="com.absaide.gallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
-15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
-16
-17    <uses-permission android:name="com.absaide.gallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
-18
-19    <application
-19-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:5-23:19
-20        android:allowBackup="true"
-20-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:7:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
-22        android:debuggable="true"
-23        android:extractNativeLibs="false"
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:8:9-43
-25        android:label="@string/app_name"
-25-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:9:9-41
-26        android:networkSecurityConfig="@xml/network_security_config"
-26-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:12:9-69
-27        android:supportsRtl="true"
-27-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:10:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.GaleryAbsaide"
-29-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:11:9-51
-30        android:usesCleartextTraffic="true" >
-30-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:13:9-44
-31        <activity
-31-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:14:9-22:20
-32            android:name="com.absaide.gallery.MainActivity"
-32-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:15:13-41
-33            android:exported="true"
-33-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:16:13-36
-34            android:windowSoftInputMode="adjustResize" >
-34-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:17:13-55
-35            <intent-filter>
-35-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:18:13-21:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:19:17-69
-36-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:19:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:20:17-77
-38-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:20:27-74
-39            </intent-filter>
-40        </activity>
-41
-42        <provider
-42-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:8:9-13:20
-43            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
-43-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:9:13-82
-44            android:authorities="com.absaide.gallery.resources.AndroidContextProvider"
-44-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:10:13-84
-45            android:enabled="true"
-45-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:11:13-35
-46            android:exported="false" >
-46-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:12:13-37
-47        </provider>
-48        <provider
-48-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-49            android:name="androidx.startup.InitializationProvider"
-49-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-50            android:authorities="com.absaide.gallery.androidx-startup"
-50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-51            android:exported="false" >
-51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-52            <meta-data
-52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-54                android:value="androidx.startup" />
-54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-55            <meta-data
-55-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-56-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
-57                android:value="androidx.startup" />
-57-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
-58            <meta-data
-58-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-59-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
-60                android:value="androidx.startup" />
-60-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
-61        </provider>
-62
-63        <receiver
-63-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
-64            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-64-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
-65            android:directBootAware="false"
-65-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
-66            android:enabled="true"
-66-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
-67            android:exported="true"
-67-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
-68            android:permission="android.permission.DUMP" >
-68-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
-69            <intent-filter>
-69-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
-70                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-70-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
-70-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
-71            </intent-filter>
-72            <intent-filter>
-72-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
-73                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-73-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
-73-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
-74            </intent-filter>
-75            <intent-filter>
-75-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
-76                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-76-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
-76-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
-77            </intent-filter>
-78            <intent-filter>
-78-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
-79                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-79-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
-79-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
-80            </intent-filter>
-81        </receiver>
-82    </application>
-83
-84</manifest>
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:5:5-65
+12-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:5:22-62
+13
+14    <uses-feature
+14-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:5-85
+15        android:name="android.hardware.camera"
+15-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:19-57
+16        android:required="false" />
+16-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:58-82
+17
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- SceneView requires OpenGLES 3.0 or later for 3D rendering. -->
+18-->[io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:9:5-71
+18-->[io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:9:22-68
+19    <uses-feature
+19-->[io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:11:5-13:35
+20        android:glEsVersion="0x00030000"
+20-->[io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:12:9-41
+21        android:required="true" />
+21-->[io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:13:9-32
+22
+23    <permission
+23-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+24        android:name="com.absaide.gallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.absaide.gallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+28
+29    <queries>
+29-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:20:5-22:15
+30        <package android:name="com.google.ar.core" />
+30-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:21:9-54
+30-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:21:18-51
+31    </queries>
+32
+33    <application
+33-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:8:5-25:19
+34        android:allowBackup="true"
+34-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:9:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:10:9-43
+39        android:label="@string/app_name"
+39-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:11:9-41
+40        android:networkSecurityConfig="@xml/network_security_config"
+40-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:14:9-69
+41        android:supportsRtl="true"
+41-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:12:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.GaleryAbsaide"
+43-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:13:9-51
+44        android:usesCleartextTraffic="true" >
+44-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:15:9-44
+45        <activity
+45-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:16:9-24:20
+46            android:name="com.absaide.gallery.MainActivity"
+46-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:17:13-41
+47            android:exported="true"
+47-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:18:13-36
+48            android:windowSoftInputMode="adjustResize" >
+48-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:19:13-55
+49            <intent-filter>
+49-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:20:13-23:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:21:17-69
+50-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:21:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:22:17-77
+52-->C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:22:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <service
+56-->[androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+57            android:name="androidx.camera.core.impl.MetadataHolderService"
+57-->[androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+58            android:enabled="false"
+58-->[androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+59            android:exported="false" >
+59-->[androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+61                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+61-->[androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+62                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+62-->[androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+63        </service>
+64        <!--
+65        Indicates that this app requires Google Play Services for AR ("AR Required") and causes
+66        the Google Play Store to download and intall Google Play Services for AR along with the app.
+67        For an "AR Optional" app, specify "optional" instead of "required".
+68        -->
+69        <meta-data
+69-->[io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:18:9-20:40
+70            android:name="com.google.ar.core"
+70-->[io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:19:13-46
+71            android:value="optional" />
+71-->[io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:20:13-37
+72
+73        <provider
+73-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:8:9-13:20
+74            android:name="org.jetbrains.compose.resources.AndroidContextProvider"
+74-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:9:13-82
+75            android:authorities="com.absaide.gallery.resources.AndroidContextProvider"
+75-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:10:13-84
+76            android:enabled="true"
+76-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:11:13-35
+77            android:exported="false" >
+77-->[org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:12:13-37
+78        </provider>
+79        <provider
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+80            android:name="androidx.startup.InitializationProvider"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+81            android:authorities="com.absaide.gallery.androidx-startup"
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+82            android:exported="false" >
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+83            <meta-data
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+84-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+85                android:value="androidx.startup" />
+85-->[androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+86            <meta-data
+86-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+87-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+88                android:value="androidx.startup" />
+88-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+90-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
+91                android:value="androidx.startup" />
+91-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
+92        </provider> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+93        <meta-data
+93-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:27:9-29:41
+94            android:name="com.google.ar.core.min_apk_version"
+94-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:28:13-62
+95            android:value="230900000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+95-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:29:13-38
+96        <activity
+96-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:31:9-37:80
+97            android:name="com.google.ar.core.InstallActivity"
+97-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:32:13-62
+98            android:configChanges="keyboardHidden|orientation|screenSize"
+98-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:33:13-74
+99            android:excludeFromRecents="true"
+99-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:34:13-46
+100            android:exported="false"
+100-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:35:13-37
+101            android:launchMode="singleTop"
+101-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:36:13-43
+102            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+102-->[com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:37:13-77
+103
+104        <receiver
+104-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
+105            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+105-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
+106            android:directBootAware="false"
+106-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
+107            android:enabled="true"
+107-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
+108            android:exported="true"
+108-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
+109            android:permission="android.permission.DUMP" >
+109-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
+111                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
+111-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
+114                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
+114-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
+117                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
+117-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
+120                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+120-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
+120-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
+121            </intent-filter>
+122        </receiver>
+123    </application>
+124
+125</manifest>

@@ -16,8 +16,7 @@ object HttpClientFactory {
 }
 
 object ApiConfig {
-    // Emulador Android  → 10.0.2.2
-    // Dispositivo físico → IP de tu PC, ej: 192.168.1.100
-    // iOS simulator     → localhost
-    const val BASE_URL = "http://10.0.2.2:8080"
+
+    const val BASE_URL = "https://galery-absaide-bakend-production.up.railway.app"
 }
+

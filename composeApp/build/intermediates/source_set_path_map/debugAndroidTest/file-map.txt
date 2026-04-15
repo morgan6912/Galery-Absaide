@@ -1,0 +1,4 @@
+com.absaide.gallery.test.composeApp-androidTest-0 C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\build\generated\res\resValues\androidTest\debug
+com.absaide.gallery.test.composeApp-mergeDebugAndroidTestResources-1 C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.absaide.gallery.test.composeApp-mergeDebugAndroidTestResources-2 C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.absaide.gallery.test.composeApp-merged_res-3 C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\build\intermediates\merged_res\debugAndroidTest

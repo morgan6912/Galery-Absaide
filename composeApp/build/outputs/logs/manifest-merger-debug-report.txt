@@ -1,16 +1,32 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\bee876a04ae7eb9bf5af62f9348dc491\transformed\camera-video-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\cf7223f4f497f55358bb825d286f1cc9\transformed\camera-lifecycle-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e202120c76deb6a019e0183068ffb893\transformed\camera-core-1.3.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\3591254ed14247ba8b9f39c695ee0276\transformed\camera-view-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:2:1-23:12
+MERGED from [io.coil-kt.coil3:coil-network-ktor3-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\6f8021b4793f1aa0d72b671e4482ae9d\transformed\coil-network-ktor3-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\bc57ada644d1c7884e673b41f35c4be0\transformed\coil-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\344f65abb9f621e10c55a068cea82955\transformed\coil-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\59564bba78beef3d06b63699c5ac2acc\transformed\coil-compose-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\be9d9eb7c2ed5bc7b704cca2f261f193\transformed\coil-network-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\8ee0fac4c87131d1b21cc023e725ef4e\transformed\coil-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3f04f61e914af4439bae3e877b659612\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\aa9f38753f51112201f6bfd537f1dc67\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\morgan\.gradle\caches\8.9\transforms\0cffba18a149877badc6482d725d5bcc\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\30a0947e12d3998594536fda6ad090b2\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\morgan\.gradle\caches\8.9\transforms\88e3ca52265f9297750beb1465ef3126\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\morgan\.gradle\caches\8.9\transforms\5b73a05805e810c45268bd2105bfd16c\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
 MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:2:1-16:12
-MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\bc57ada644d1c7884e673b41f35c4be0\transformed\coil-compose-release\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\59564bba78beef3d06b63699c5ac2acc\transformed\coil-compose-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\0bfb53645073e120c9fb127a105cceb1\transformed\navigation-common-2.8.0-rc01\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\d61c1a28da4968afb791b0326ad30b0b\transformed\navigation-runtime-2.8.0-rc01\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\3ec5e75a12e2096d5d7f5fbc1c7a829e\transformed\navigation-common-ktx-2.8.0-rc01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\d61c1a28da4968afb791b0326ad30b0b\transformed\navigation-runtime-2.8.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\0bfb53645073e120c9fb127a105cceb1\transformed\navigation-common-2.8.0-rc01\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\721adb99b427780d65e2bc6a6557bf3f\transformed\navigation-runtime-ktx-2.8.0-rc01\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-compose:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\934a91e9158b1acaa6023bb8ab16c82a\transformed\navigation-compose-2.8.0-rc01\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\7a814b9211ec05ee7536aebee68ece11\transformed\material3-release\AndroidManifest.xml:17:1-22:12
@@ -26,44 +42,55 @@ MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\morgan\.gradle\
 MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\836890a9a1846222fdc049202b5f9543\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\e04970fbf74a087fee17ec5b1fb6e4c6\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\aef722dd0d3984f69657ecff871d01e5\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\018894aff631f579e3d9feb4810859fc\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\1062b16eb6d92386b29f84055c1d2733\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] C:\Users\morgan\.gradle\caches\8.9\transforms\26e55a7d7f18ea113f9dde2922abe03f\transformed\core-bundle-debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\125bbb6636816b2e943cb22e6d5df359\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
-MERGED from [io.coil-kt.coil3:coil-network-ktor3-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\6f8021b4793f1aa0d72b671e4482ae9d\transformed\coil-network-ktor3-release\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\344f65abb9f621e10c55a068cea82955\transformed\coil-release\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\be9d9eb7c2ed5bc7b704cca2f261f193\transformed\coil-network-core-release\AndroidManifest.xml:2:1-7:12
-MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\8ee0fac4c87131d1b21cc023e725ef4e\transformed\coil-core-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e2b9ddd39b33229a2b618d6b6356e5a5\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\morgan\.gradle\caches\8.9\transforms\41baf7312a1f708f7e9a44e13c7c7d2b\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\05033fe408b5372dd20d18f7718f7d37\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\9ebf5cfbfd31d3543a953a426867c715\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\0683a9d3cda48ab6145dfad8a92ff7d9\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\0728e7de9b0ead1d8af0ce9e65b057f6\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\96a9d236e2e9f66ca4218b0850d24863\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\20a5cbdbf5a3777330b0ec81465235d7\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f011fe0d6bf9b2f6c7784376cd55b953\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\ad80038796aa477693122d202e2e6156\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f6438bcd52827b048883717875c2abea\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\8e968a2b8b1ac6af78b773c18ad27ae9\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\2cf6cd9af487aca5e92d0bcb07dc94d5\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\302618c5c94e7d3edb1295e4a13cb1e4\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1ae4e4e959bcb39678812d221d5e46eb\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3f04f61e914af4439bae3e877b659612\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\morgan\.gradle\caches\8.9\transforms\1a53ed8287d00772fb3c579ce96de32a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\morgan\.gradle\caches\8.9\transforms\1d1eef876cfa3697f5f3f3cbfbbe79f5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\91e2956211eed297fa8f6bdf4bf57476\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\8e520548c6183b3b24edca76ea452817\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\4aecea09397bd4750c9e8892f67e9b16\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\252c91436b69e1c76b5889230176cc5b\transformed\lifecycle-runtime-2.8.7\AndroidManifest.xml:2:1-5:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f2a76bba2778d07e198f0583b0db1ead\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\46f60b23cd9f7ecc56fa751077d12837\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\5275e66b5351a94c765201c5d636670a\transformed\ui-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\morgan\.gradle\caches\8.9\transforms\e4a5e289cd3b8c045748f315feff9d05\transformed\activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\morgan\.gradle\caches\8.9\transforms\db732c0a4621b94c328e827c5e2ee507\transformed\activity-compose-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.filament:filament-utils-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\878b2615954dfc5275779ec0a42550a3\transformed\filament-utils-android-1.36.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\cc5735d395d1dcd0848f619d24fecbda\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\723855cf4f1e938d3e03857c2f2d4484\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\b95948da42fe0bcfb126cf71c050f0e6\transformed\fuel-android-2.3.1\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\4235e8478859f6d248c6d649a604edef\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\morgan\.gradle\caches\8.9\transforms\46a9701f3b79d1024ef0f1b7343718ae\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:8:1-40:12
+MERGED from [com.google.android.filament:gltfio-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\2237c9512213758cd0f79101209ebd76\transformed\gltfio-android-1.36.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.filament:filament-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\baba7c3e6affd0a6b687547287cc58a5\transformed\filament-android-1.36.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\morgan\.gradle\caches\8.9\transforms\cbb76c2092e081a732b76db7bd536729\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1bc6ddfbbf74a0dfc6b632ddf498e770\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\0be4502809c0dcd56f62c1eb38a89551\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\742976c3630a7b2ad44c5f1c4c395e5d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\morgan\.gradle\caches\8.9\transforms\280f5305b15ab240def62a179277a4d7\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\40b3b2e2a4779fb0b3cf32e5a668e41d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml
 	android:versionName
@@ -74,11 +101,33 @@ MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\morgan\.gradle
 		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:4:5-67
+MERGED from [io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:8:5-67
+MERGED from [io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:8:5-67
 	android:name
 		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:5:5-65
+MERGED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:8:5-65
+MERGED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:5:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:5-85
+	android:required
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:58-82
+	android:name
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:19-57
 application
-ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:5-23:19
-INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:6:5-23:19
+ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:8:5-25:19
+INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:8:5-25:19
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e202120c76deb6a019e0183068ffb893\transformed\camera-core-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e202120c76deb6a019e0183068ffb893\transformed\camera-core-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:11:5-21:19
+MERGED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:11:5-21:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\morgan\.gradle\caches\8.9\transforms\0cffba18a149877badc6482d725d5bcc\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\morgan\.gradle\caches\8.9\transforms\0cffba18a149877badc6482d725d5bcc\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
 MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:7:5-14:19
 MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:7:5-14:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
@@ -89,6 +138,8 @@ MERGED from [androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\trans
 MERGED from [androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\morgan\.gradle\caches\8.9\transforms\46a9701f3b79d1024ef0f1b7343718ae\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\morgan\.gradle\caches\8.9\transforms\46a9701f3b79d1024ef0f1b7343718ae\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:24:5-38:19
+MERGED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:24:5-38:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1bc6ddfbbf74a0dfc6b632ddf498e770\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
@@ -98,55 +149,87 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\morgan\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:11:9-41
 	android:icon
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:11:9-51
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:13:9-51
 	android:networkSecurityConfig
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:12:9-69
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:14:9-69
 	android:usesCleartextTraffic
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:13:9-44
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:15:9-44
 activity#com.absaide.gallery.MainActivity
-ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:14:9-22:20
+ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:16:9-24:20
 	android:windowSoftInputMode
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:17:13-55
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:19:13-55
 	android:exported
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:16:13-36
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:18:13-21:29
+ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:20:17-77
+ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:20:27-74
+		ADDED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml
 INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\bee876a04ae7eb9bf5af62f9348dc491\transformed\camera-video-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\bee876a04ae7eb9bf5af62f9348dc491\transformed\camera-video-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\cf7223f4f497f55358bb825d286f1cc9\transformed\camera-lifecycle-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\cf7223f4f497f55358bb825d286f1cc9\transformed\camera-lifecycle-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e202120c76deb6a019e0183068ffb893\transformed\camera-core-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e202120c76deb6a019e0183068ffb893\transformed\camera-core-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\3591254ed14247ba8b9f39c695ee0276\transformed\camera-view-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\3591254ed14247ba8b9f39c695ee0276\transformed\camera-view-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:5:5-44
+MERGED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-network-ktor3-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\6f8021b4793f1aa0d72b671e4482ae9d\transformed\coil-network-ktor3-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-network-ktor3-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\6f8021b4793f1aa0d72b671e4482ae9d\transformed\coil-network-ktor3-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\bc57ada644d1c7884e673b41f35c4be0\transformed\coil-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\bc57ada644d1c7884e673b41f35c4be0\transformed\coil-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\344f65abb9f621e10c55a068cea82955\transformed\coil-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\344f65abb9f621e10c55a068cea82955\transformed\coil-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\59564bba78beef3d06b63699c5ac2acc\transformed\coil-compose-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\59564bba78beef3d06b63699c5ac2acc\transformed\coil-compose-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\be9d9eb7c2ed5bc7b704cca2f261f193\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\be9d9eb7c2ed5bc7b704cca2f261f193\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\8ee0fac4c87131d1b21cc023e725ef4e\transformed\coil-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\8ee0fac4c87131d1b21cc023e725ef4e\transformed\coil-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3f04f61e914af4439bae3e877b659612\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3f04f61e914af4439bae3e877b659612\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\aa9f38753f51112201f6bfd537f1dc67\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\aa9f38753f51112201f6bfd537f1dc67\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:5:5-44
+MERGED from [io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\morgan\.gradle\caches\8.9\transforms\0cffba18a149877badc6482d725d5bcc\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\morgan\.gradle\caches\8.9\transforms\0cffba18a149877badc6482d725d5bcc\transformed\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\30a0947e12d3998594536fda6ad090b2\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\30a0947e12d3998594536fda6ad090b2\transformed\fragment-ktx-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\morgan\.gradle\caches\8.9\transforms\88e3ca52265f9297750beb1465ef3126\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\morgan\.gradle\caches\8.9\transforms\88e3ca52265f9297750beb1465ef3126\transformed\fragment-1.5.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\morgan\.gradle\caches\8.9\transforms\5b73a05805e810c45268bd2105bfd16c\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\morgan\.gradle\caches\8.9\transforms\5b73a05805e810c45268bd2105bfd16c\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
 MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:5:5-44
 MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\bc57ada644d1c7884e673b41f35c4be0\transformed\coil-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\bc57ada644d1c7884e673b41f35c4be0\transformed\coil-compose-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\59564bba78beef3d06b63699c5ac2acc\transformed\coil-compose-core-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-compose-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\59564bba78beef3d06b63699c5ac2acc\transformed\coil-compose-core-release\AndroidManifest.xml:5:5-44
-MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\0bfb53645073e120c9fb127a105cceb1\transformed\navigation-common-2.8.0-rc01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\0bfb53645073e120c9fb127a105cceb1\transformed\navigation-common-2.8.0-rc01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\d61c1a28da4968afb791b0326ad30b0b\transformed\navigation-runtime-2.8.0-rc01\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\d61c1a28da4968afb791b0326ad30b0b\transformed\navigation-runtime-2.8.0-rc01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\3ec5e75a12e2096d5d7f5fbc1c7a829e\transformed\navigation-common-ktx-2.8.0-rc01\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common-ktx:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\3ec5e75a12e2096d5d7f5fbc1c7a829e\transformed\navigation-common-ktx-2.8.0-rc01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\d61c1a28da4968afb791b0326ad30b0b\transformed\navigation-runtime-2.8.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\d61c1a28da4968afb791b0326ad30b0b\transformed\navigation-runtime-2.8.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\0bfb53645073e120c9fb127a105cceb1\transformed\navigation-common-2.8.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\0bfb53645073e120c9fb127a105cceb1\transformed\navigation-common-2.8.0-rc01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\721adb99b427780d65e2bc6a6557bf3f\transformed\navigation-runtime-ktx-2.8.0-rc01\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\721adb99b427780d65e2bc6a6557bf3f\transformed\navigation-runtime-ktx-2.8.0-rc01\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-compose:2.8.0-rc01] C:\Users\morgan\.gradle\caches\8.9\transforms\934a91e9158b1acaa6023bb8ab16c82a\transformed\navigation-compose-2.8.0-rc01\AndroidManifest.xml:5:5-44
@@ -177,6 +260,8 @@ MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Use
 MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\e04970fbf74a087fee17ec5b1fb6e4c6\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\aef722dd0d3984f69657ecff871d01e5\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.accompanist:accompanist-drawablepainter:0.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\aef722dd0d3984f69657ecff871d01e5\transformed\accompanist-drawablepainter-0.36.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\018894aff631f579e3d9feb4810859fc\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\018894aff631f579e3d9feb4810859fc\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\morgan\.gradle\caches\8.9\transforms\18560f62e756ebb13e74ac526c4099f6\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
 MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\1062b16eb6d92386b29f84055c1d2733\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -185,18 +270,14 @@ MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] C:\Use
 MERGED from [org.jetbrains.androidx.core:core-bundle-android-debug:1.0.1] C:\Users\morgan\.gradle\caches\8.9\transforms\26e55a7d7f18ea113f9dde2922abe03f\transformed\core-bundle-debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\125bbb6636816b2e943cb22e6d5df359\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\125bbb6636816b2e943cb22e6d5df359\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
-MERGED from [io.coil-kt.coil3:coil-network-ktor3-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\6f8021b4793f1aa0d72b671e4482ae9d\transformed\coil-network-ktor3-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-network-ktor3-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\6f8021b4793f1aa0d72b671e4482ae9d\transformed\coil-network-ktor3-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\344f65abb9f621e10c55a068cea82955\transformed\coil-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\344f65abb9f621e10c55a068cea82955\transformed\coil-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\be9d9eb7c2ed5bc7b704cca2f261f193\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\be9d9eb7c2ed5bc7b704cca2f261f193\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\8ee0fac4c87131d1b21cc023e725ef4e\transformed\coil-core-release\AndroidManifest.xml:5:5-44
-MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\morgan\.gradle\caches\8.9\transforms\8ee0fac4c87131d1b21cc023e725ef4e\transformed\coil-core-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e2b9ddd39b33229a2b618d6b6356e5a5\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e2b9ddd39b33229a2b618d6b6356e5a5\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\morgan\.gradle\caches\8.9\transforms\41baf7312a1f708f7e9a44e13c7c7d2b\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\morgan\.gradle\caches\8.9\transforms\41baf7312a1f708f7e9a44e13c7c7d2b\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\05033fe408b5372dd20d18f7718f7d37\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\05033fe408b5372dd20d18f7718f7d37\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\9ebf5cfbfd31d3543a953a426867c715\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\9ebf5cfbfd31d3543a953a426867c715\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\0683a9d3cda48ab6145dfad8a92ff7d9\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\0683a9d3cda48ab6145dfad8a92ff7d9\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\0728e7de9b0ead1d8af0ce9e65b057f6\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
@@ -205,24 +286,36 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\User
 MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\96a9d236e2e9f66ca4218b0850d24863\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\20a5cbdbf5a3777330b0ec81465235d7\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\20a5cbdbf5a3777330b0ec81465235d7\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f011fe0d6bf9b2f6c7784376cd55b953\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f011fe0d6bf9b2f6c7784376cd55b953\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\19b6ff9e0d082858d58b73c66091cf67\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\ad80038796aa477693122d202e2e6156\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\ad80038796aa477693122d202e2e6156\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f6438bcd52827b048883717875c2abea\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f6438bcd52827b048883717875c2abea\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\8e968a2b8b1ac6af78b773c18ad27ae9\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\8e968a2b8b1ac6af78b773c18ad27ae9\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\2cf6cd9af487aca5e92d0bcb07dc94d5\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\2cf6cd9af487aca5e92d0bcb07dc94d5\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\302618c5c94e7d3edb1295e4a13cb1e4\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\302618c5c94e7d3edb1295e4a13cb1e4\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1ae4e4e959bcb39678812d221d5e46eb\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1ae4e4e959bcb39678812d221d5e46eb\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3f04f61e914af4439bae3e877b659612\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3f04f61e914af4439bae3e877b659612\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\morgan\.gradle\caches\8.9\transforms\1a53ed8287d00772fb3c579ce96de32a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\morgan\.gradle\caches\8.9\transforms\1a53ed8287d00772fb3c579ce96de32a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\morgan\.gradle\caches\8.9\transforms\1d1eef876cfa3697f5f3f3cbfbbe79f5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\morgan\.gradle\caches\8.9\transforms\1d1eef876cfa3697f5f3f3cbfbbe79f5\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\91e2956211eed297fa8f6bdf4bf57476\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\91e2956211eed297fa8f6bdf4bf57476\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\8e520548c6183b3b24edca76ea452817\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\8e520548c6183b3b24edca76ea452817\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\4aecea09397bd4750c9e8892f67e9b16\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\4aecea09397bd4750c9e8892f67e9b16\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\252c91436b69e1c76b5889230176cc5b\transformed\lifecycle-runtime-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\252c91436b69e1c76b5889230176cc5b\transformed\lifecycle-runtime-2.8.7\AndroidManifest.xml:4:5-43
 MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f2a76bba2778d07e198f0583b0db1ead\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\f2a76bba2778d07e198f0583b0db1ead\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\morgan\.gradle\caches\8.9\transforms\46f60b23cd9f7ecc56fa751077d12837\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
@@ -233,14 +326,24 @@ MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\morgan\.gradle\cache
 MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\morgan\.gradle\caches\8.9\transforms\e4a5e289cd3b8c045748f315feff9d05\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\morgan\.gradle\caches\8.9\transforms\db732c0a4621b94c328e827c5e2ee507\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\morgan\.gradle\caches\8.9\transforms\db732c0a4621b94c328e827c5e2ee507\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.filament:filament-utils-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\878b2615954dfc5275779ec0a42550a3\transformed\filament-utils-android-1.36.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.filament:filament-utils-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\878b2615954dfc5275779ec0a42550a3\transformed\filament-utils-android-1.36.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\cc5735d395d1dcd0848f619d24fecbda\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\cc5735d395d1dcd0848f619d24fecbda\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\723855cf4f1e938d3e03857c2f2d4484\transformed\runtime-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\morgan\.gradle\caches\8.9\transforms\723855cf4f1e938d3e03857c2f2d4484\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\b95948da42fe0bcfb126cf71c050f0e6\transformed\fuel-android-2.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.kittinunf.fuel:fuel-android:2.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\b95948da42fe0bcfb126cf71c050f0e6\transformed\fuel-android-2.3.1\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\4235e8478859f6d248c6d649a604edef\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\4235e8478859f6d248c6d649a604edef\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\morgan\.gradle\caches\8.9\transforms\46a9701f3b79d1024ef0f1b7343718ae\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\morgan\.gradle\caches\8.9\transforms\46a9701f3b79d1024ef0f1b7343718ae\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:16:5-18:41
+MERGED from [com.google.android.filament:gltfio-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\2237c9512213758cd0f79101209ebd76\transformed\gltfio-android-1.36.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.filament:gltfio-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\2237c9512213758cd0f79101209ebd76\transformed\gltfio-android-1.36.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.filament:filament-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\baba7c3e6affd0a6b687547287cc58a5\transformed\filament-android-1.36.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.filament:filament-android:1.36.0] C:\Users\morgan\.gradle\caches\8.9\transforms\baba7c3e6affd0a6b687547287cc58a5\transformed\filament-android-1.36.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\morgan\.gradle\caches\8.9\transforms\cbb76c2092e081a732b76db7bd536729\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\morgan\.gradle\caches\8.9\transforms\cbb76c2092e081a732b76db7bd536729\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:21:5-44
@@ -253,10 +356,48 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\morgan\.gradle\c
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\742976c3630a7b2ad44c5f1c4c395e5d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\morgan\.gradle\caches\8.9\transforms\280f5305b15ab240def62a179277a4d7\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\morgan\.gradle\caches\8.9\transforms\280f5305b15ab240def62a179277a4d7\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\40b3b2e2a4779fb0b3cf32e5a668e41d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\morgan\.gradle\caches\8.9\transforms\40b3b2e2a4779fb0b3cf32e5a668e41d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\morgan\Downloads\GaleryAbsaide (5)\GaleryAbsaide\GaleryAbsaide-Mobile\composeApp\src\androidMain\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e202120c76deb6a019e0183068ffb893\transformed\camera-core-1.3.1\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\e202120c76deb6a019e0183068ffb893\transformed\camera-core-1.3.1\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\morgan\.gradle\caches\8.9\transforms\c785780617153e52f05364fea63e56dd\transformed\camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:9:22-68
+meta-data#com.google.ar.core
+ADDED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:18:9-20:40
+	android:value
+		ADDED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [io.github.sceneview:arsceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\97b4495d51fc0294ed84b31628c25fca\transformed\arsceneview-0.10.0\AndroidManifest.xml:19:13-46
+uses-feature#0x00030000
+ADDED from [io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:11:5-13:35
+	android:glEsVersion
+		ADDED from [io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:12:9-41
+	android:required
+		ADDED from [io.github.sceneview:sceneview:0.10.0] C:\Users\morgan\.gradle\caches\8.9\transforms\3382d70544087bd5d595a5524feae25a\transformed\sceneview-0.10.0\AndroidManifest.xml:13:9-32
 provider#org.jetbrains.compose.resources.AndroidContextProvider
 ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.3] C:\Users\morgan\.gradle\caches\8.9\transforms\6d179bfaa2af2bbb84e0279d3f825008\transformed\library-release\AndroidManifest.xml:8:9-13:20
 	android:enabled
@@ -315,6 +456,32 @@ uses-permission#com.absaide.gallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] C:\Users\morgan\.gradle\caches\8.9\transforms\ddc1f60437a1e31b34774e0615237056\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+queries
+ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:20:5-22:15
+package#com.google.ar.core
+ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:21:9-54
+	android:name
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:21:18-51
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:27:9-29:41
+	android:value
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:29:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:28:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:31:9-37:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:34:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:36:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:35:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:33:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:37:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.37.0] C:\Users\morgan\.gradle\caches\8.9\transforms\5ff9a196a9291f51b5ad1905801e3630\transformed\core-1.37.0\AndroidManifest.xml:32:13-62
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\morgan\.gradle\caches\8.9\transforms\1940b11aa92b7745e6856c31cf583906\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
 	android:value

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.absaide.gallery.composeApp-mergeDebugResources-48:/values-v30/values-v30.xml",
+            "outputFile": "com.absaide.gallery.composeApp-mergeDebugResources-64:/values-v30/values-v30.xml",
             "map": [
                 {
                     "source": "C:\\Users\\morgan\\.gradle\\caches\\8.9\\transforms\\7a814b9211ec05ee7536aebee68ece11\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",

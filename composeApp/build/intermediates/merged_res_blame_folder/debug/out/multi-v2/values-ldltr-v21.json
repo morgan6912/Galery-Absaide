@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.absaide.gallery.composeApp-mergeDebugResources-64:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\morgan\\.gradle\\caches\\8.9\\transforms\\aa9f38753f51112201f6bfd537f1dc67\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
